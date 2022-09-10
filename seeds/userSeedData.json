@@ -4,7 +4,6 @@
     "password": "password123",
     "email": "billy@email.com",
     "github": "MustyBraid",
-    "linkedin": "Billy.Bob",
     "slack": "BillyBob123",
     "bio": "I do different things."
   },
@@ -13,7 +12,6 @@
     "password": "passworde321",
     "email": "sue@email.com",
     "github": "austinleblanc",
-    "linkedin": "sue.marie",
     "slack": "SueMarie321",
     "bio": "I do things."
   }
