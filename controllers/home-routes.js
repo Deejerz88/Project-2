@@ -39,6 +39,9 @@ router.get("/", async (req, res) => {
 router.get("/search", async (req, res) => {
   res.render("search");
 });
+router.get("/search", async (req, res) => {
+  res.render("search");
+});
 router.get("/searchName/:name", (req, res) => {
   // Get one alum from the alum table
 
@@ -50,24 +53,6 @@ router.get("/searchName/:name", (req, res) => {
   })
     .then((nameData) => {
       res.json(nameData);
-    })
-    .catch((err) => {
-      console.log(err);
-      res.status(500).json(err);
-    });
-});
-
-router.get("/searchGithub/:github", (req, res) => {
-  // Get one alum from the alum table
-
-  User.findOne({
-    // Gets the alum based on the github given in the request parameters
-    where: {
-      github: req.params.github,
-    },
-  })
-    .then((githubData) => {
-      res.json(githubData);
     })
     .catch((err) => {
       console.log(err);
