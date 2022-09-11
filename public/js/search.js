@@ -14,21 +14,3 @@ nameBtn.addEventListener("click", function async(e) {
   e.preventDefault();
   getName();
 });
-
-// function getGithub() {
-//   let clkG = document.getElementById("search-Ginput");
-//   fetch(`/searchGithub/${clkG.value}`)
-//     .then((response) => {
-//       return response.json();
-//     })
-//     .then((githubData) => {
-//       console.log(githubData);
-//     });
-// }
-
-// // search by github
-// let gBtn = document.getElementById("searchGBtn");
-// gBtn.addEventListener("click", function async(e) {
-//   e.preventDefault();
-//   getGithub();
-// });
